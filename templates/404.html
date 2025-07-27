@@ -1,0 +1,10 @@
+{% extends "base.html"%} 
+
+{% block heading %} 
+    error404
+{% endblock %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+{%block body%}
+    <p>page not found</p>
+{%endblock%}

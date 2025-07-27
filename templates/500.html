@@ -1,0 +1,10 @@
+{% extends "base.html"%} 
+
+{% block heading %} 
+    error500 
+{% endblock %}
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+{%block body%}
+    <p>Internal server error</p>
+{%endblock%}
